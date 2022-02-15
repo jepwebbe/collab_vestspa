@@ -1,0 +1,43 @@
+/*
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rufina:wght@700&display=swap" rel="stylesheet">
+*/
+
+/* 
+font-family: 'Roboto', sans-serif;
+font-family: 'Rufina', serif;
+*/
+
+:root{
+    --red: #FF817E;
+    --black: #333333;
+}
+
+*{margin:0;padding:0;box-sizing:0;}
+h1{color:black;font-family:'Rufina',serif;font-size:50px;}
+h2{color:black;font-family:'Rufina',serif;font-size:40px;}
+h3{color:black;font-family:'Rufina',serif;font-size:30px;}
+h4{color:black;font-family:'Rufina',serif;font-size:20px;}
+p{color:black;font-family:'Roboto',sans-serif;}
+
+
+.btnStyle1{
+    border-radius:5px;border:none;
+    background-color:var(--red);color:white;
+}
+
+.btnStyle1:hover{
+    background-color:var(--black);color:var(--red);
+    transition: 0.2s ease-in-out;
+}
+
+.btnStyle2{
+    border-radius:20px;border:none;
+    background-color:var(--red);color:white;
+}
+
+.btnStyle2:hover{
+    background-color:var(--black);color:var(--red);
+    transition: 0.2s ease-in-out;
+}
