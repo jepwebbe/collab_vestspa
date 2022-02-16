@@ -152,3 +152,51 @@ footer a {
 	right: 1rem;
 	top: 21rem;
 }
+
+#about-gallery{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 2rem;
+	margin-top: 5rem;
+}
+
+.galley-image-about{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.about-overlay-background{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #f1b0b0;
+	opacity: 0%;
+	transition: .5s ease;
+}
+.about-overlay{
+	position: absolute;
+	height: 25%;
+	width: 25%;
+	opacity: 0;
+	transition: .5s ease;
+}
+.about-img-container{
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.about-img-container:hover .about-overlay{
+	opacity: 100%;
+	cursor: pointer;
+}
+
+.about-img-container:hover .about-overlay-background{
+	opacity: 80%;
+	cursor: pointer;
+}
