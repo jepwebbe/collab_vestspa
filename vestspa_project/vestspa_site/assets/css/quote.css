@@ -1,0 +1,63 @@
+:root {
+    --p-font: 20px;
+    --h3-font: 75px;
+    --p-executive: 25px;
+    --dots: 75px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap');
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #dbbca325;
+    height: 550px;
+}
+.quotes > h3 {
+    font-size: var(--h3-font);
+    color: #fc7575;
+    font-weight: bolder;
+}
+.quotes > p {
+    width: 1000px;
+    font-size: var(--p-font);
+}
+.quotes > .executive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.quotes > .executive > img {
+    margin-top: 30px;
+    border-radius: 100%;
+}
+
+.quotes > .executive > p {
+    font-size: var(--p-executive);
+    padding-top: 30px;
+}
+.dots-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+.dots-container > .dots {
+    color: #ff9f9f73;
+    font-size: var(--dots);
+    margin: 0;
+    padding: 0;
+    height: 25px;
+}
+.dots-container > .dots:hover {
+    color: #3f3f3f;
+}
