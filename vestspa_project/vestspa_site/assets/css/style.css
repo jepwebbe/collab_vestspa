@@ -141,3 +141,14 @@ footer a {
 	background-color: var(--black);
 	color: var(--red);
 }
+
+#about-rose{
+	position: absolute;
+	top: 1rem;
+	left: 15rem;
+}
+#about-jasmine{
+	position: absolute;
+	right: 1rem;
+	top: 21rem;
+}
