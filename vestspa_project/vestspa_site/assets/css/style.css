@@ -12,3 +12,44 @@ img{
 	height: auto;	
 	display: block;
 }
+
+/* Procedures */
+#procedures {
+	max-width: 65rem;
+	margin: 0 auto;
+}
+#procedures-h {
+	max-width: 40rem;
+	margin: 2rem auto;
+	text-align: center;
+}
+#procedures-h p {
+	color: #666666;
+	margin-top: 1rem;
+}
+#procedures-cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.8rem;
+}
+#procedures-cards article {
+	border: 0.1rem solid #c2bfb6;
+	padding: 1rem;
+	display: grid;
+}
+#procedures-cards article *{
+	margin: 0 auto;
+	padding: 0.8rem;
+}
+#procedures-cards div {
+	max-width: 20rem;
+}
+#procedures-cards article p {
+	color: #666666;
+}
+#procedures-cards .btnStyle2 {
+	width: 10rem;
+	text-align: center;
+	margin: 2rem auto;
+	height: 3.5rem;
+}
