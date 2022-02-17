@@ -17,7 +17,7 @@ img{
 .hero{margin:0 22% 0 10%;}
 
 /* hero background */
-.hero_main-img{position:absolute; right:0; z-index: -1;width:40%;}
+.hero_main-img{position:absolute; right:0; z-index: -1;max-height:60%}
 .hero_main-img2{position:absolute; left:0; top:100px; z-index: -1;width:10%;}
 
 /* hero nav */
@@ -181,7 +181,7 @@ footer a {
 
 #about-rose{
 	position: absolute;
-	top: 50rem;
+	top: 30rem;
 	left: 10rem;
 }
 #about-jasmine{
@@ -254,6 +254,12 @@ footer a {
 	/* about*/
 	#about-gallery {
 		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	}
+	#about-rose {
+		display: none;
+	}
+	#about-jasmine {
+		display: none;
 	}
 	/* team */
 	.team_gallery {
