@@ -1,0 +1,123 @@
+/*Booking a treatment*/
+* {
+  maring: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+.booking h2 {
+  text-align: center;
+}
+
+.booking div {
+  margin: auto;
+  width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 3em;
+  background-color: #FFF9F8;
+}
+
+.booking div img {
+  width: 100%;
+}
+
+.booking div form {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "text text" "name email" "service pn" "date time" "comment comment" "button button";
+  gap: 1em;
+  padding: 1em;
+}
+
+.booking div form div {
+  padding: 1em;
+  width: 100%;
+}
+
+.booking div form div input {
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: #FFF9F8;
+}
+
+.booking div form div button {
+  padding: 20px 16px;
+  background-color: #FF817E;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.booking div form div button:hover {
+  background-color: #5B5555;
+  color: #FF817E;
+}
+
+.booking div form div textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: #FFF9F8;
+}
+
+.formText {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: text;
+}
+
+.formName {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: name;
+}
+
+.formemail {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: email;
+}
+
+.formService {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: service;
+}
+
+.formPN {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: pn;
+}
+
+.formDate {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: date;
+}
+
+.formTime {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: time;
+}
+
+.formComment {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: comment;
+}
+
+.formButton {
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: button;
+  gap: 1em;
+}
+/*# sourceMappingURL=booking.css.map */
