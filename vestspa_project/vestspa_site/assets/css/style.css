@@ -13,6 +13,40 @@ img{
 	display: block;
 }
 
+/* HERO */
+.hero{margin:0 22% 0 10%;}
+
+/* hero background */
+.hero_main-img{position:absolute; right:0; z-index: -1;width:40%;}
+.hero_main-img2{position:absolute; left:0; top:100px; z-index: -1;width:10%;}
+
+/* hero nav */
+.hero_nav{display:flex;height:167px;padding: 12px 0 0 0;}
+
+.hero_nav-list{display:flex;align-self:center;}
+.hero_nav-list li{list-style: none;}
+.hero_nav-list li a{color:black; text-decoration: none;}
+
+.hero_nav-list li:nth-child(n+1){padding:0 0 0 40px;}
+
+.hero_nav-logo{display:flex;align-items:center;flex-direction:column;}
+
+/* hero main */
+.hero_type-of-business{color:var(--red)}
+.hero_title{padding: 0 0 8px 0;}
+.hero_description{padding: 8px 0 8px 0;}
+
+.hero_button-container{display:flex;padding: 18px 0 8px 0;}
+.hero_btn1{padding: 24px 16px;}
+.hero_btn2-container{display:flex;align-items: center;}
+.hero_btn2{
+	width:60px;height:60px;margin:0 12px 0 12px;
+	color:lightgrey;border-radius:50px;border-color:lightgrey;}
+.hero_btn2:hover{border-color:grey;}
+
+.hero_flower-img{padding:50px 0 0 50px;}
+.hero_logo-img-bottom{margin:0 auto;padding:10% 0 0 12%;}
+
 /* Procedures */
 #procedures {
 	max-width: 65rem;
@@ -200,3 +234,15 @@ footer a {
 	opacity: 80%;
 	cursor: pointer;
 }
+
+/* TEAM */
+
+.team_title{text-align: center; padding: 60px 0 0 0;}
+.team_description{text-align: center; padding: 40px 100px 0 100px; color:grey;}
+
+/* team portraits */
+.team_gallery{display:flex; justify-content: space-between; padding: 60px 0;width:800px;margin: 0 auto;}
+.team_portrait-container{box-shadow: 1px 2px 8px lightgrey;width:30%;}
+.team_gallery-portrait-img{}
+.team_gallery-name{text-align: center;font-size:26px;padding:10px 0 2px 0;}
+.team_gallery-description{text-align:center;padding:2px 0 10px 0;}
